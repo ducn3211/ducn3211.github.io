@@ -11,39 +11,39 @@
     <header>
         <h1>Nguyễn Đình Đức</h1>
         <p>Có làm thì mới có ăn</p>
-        <nav class="main-menu", display="flex">
+        <nav class="main-menu">
             <ul>
-                <li><a href="#profile">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#profile" onclick="scrollToSection('profile')">About</a></li>
+                <li><a href="#education" onclick="scrollToSection('education')">Education</a></li>
+                <li><a href="#experience" onclick="scrollToSection('experience')">Experience</a></li>
+                <li><a href="#skills" onclick="scrollToSection('skills')">Skills</a></li>
+                <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="container">
 
-        <section class="profile">
+        <section id="profile" class="profile">
             <div class="container">
             <img src="avt.jpg" alt="Profile Picture">
             <h2>About</h2>
             <p>Sinh viên khoa K66 ngành Quản lý môi trường. Sống tại Lê Văn Hiến- Đức Thắng- Bắc Từ Liêm- Hà Nội</p>
         </section>
 
-        <section class="education">
+        <section id="education" class="education">
             <div class="container">
             <h2>Education</h2>
             <p>Sinh viên năm ba ngành quản lý môi trường tại Đại học Mỏ- Địa chất</p>
         </section>
 
-        <section class="experience">
+        <section id="experience" class="experience">
             <div class="container">
             <h2>Experience</h2>
             <p>Chưa có cơ hội làm việc tại các công ty, hiện đang tìm cơ hội để thực tập lấy thêm kinh nghiệm</p>
         </section>
 
-        <section class="skills">
+        <section id="skills" class="skills">
             <div class="container">
             <h2>Skills</h2>
             <ul>
@@ -55,15 +55,17 @@
             </ul>
         </section>
 
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="container">
-
             <h2>Contact</h2>
             <p>Email: ducn3211@gmail.com</p>
             <p>Phone: 0829385637</p>
         </section>
 
     </div>
+
+    <script src="script.js"></script>
+
 
 </body>
 </html>
