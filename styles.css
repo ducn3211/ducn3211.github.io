@@ -39,7 +39,6 @@ section {
     margin-bottom: 20px;
 }
 
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -50,8 +49,12 @@ nav ul {
 nav a {
     text-decoration: none;
     color: white;
+    transition: color 0.3s ease;
 }
 
+nav a:hover {
+    color: #ffd700;
+}
 
 section h2 {
     color: #333;
@@ -62,3 +65,4 @@ section h2 {
         padding: 10px;
     }
 }
+
